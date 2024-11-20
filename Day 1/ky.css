@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes image {
+    0% {
+        background-repeat: no-repeat;
+        background-image: url("C:\Users\admin\Desktop\Web Dev\img.jpg")
+
+    25% {
+        background-repeat: no-repeat;
+        background-image: url("https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+
+    50% {
+        background-repeat: no-repeat;
+        background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+
+    75% {
+        background-repeat: no-repeat;
+        background-image: url("https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    animation: image 10s infinite;
+}
